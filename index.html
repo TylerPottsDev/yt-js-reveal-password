@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Show/Hide Password</title>
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	
+	<main>
+
+		<form>
+			<h3>Login</h3>
+
+			<label>
+				<span>Username</span>
+				<input 
+					type="text"
+					id="username"
+					placeholder="Enter your username" />
+			</label>
+
+			<label>
+				<span>Password</span>
+				<div class="passwd-wrap">
+					<input
+						type="password"
+						id="password"
+						placeholder="Enter your password..." />
+
+					<button type="button" id="show-passwd">
+						<img src="./eye_open.svg" alt="Show Password" />
+					</button>
+				</div>
+			</label>
+
+			<button class="button" type="submit">
+				Log me in!
+			</button>
+		</form>
+
+	</main>
+
+	<script src="main.js"></script>
+</body>
+</html>
